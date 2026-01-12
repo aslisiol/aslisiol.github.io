@@ -5,19 +5,19 @@ import { marked } from 'marked';
 import PhotoGrid from './PhotoGrid.astro';
 import imageDataRaw from '../../public/gallery/homepage/metadata.json';
 import Image from 'astro/components/Image.astro';
-import asliimage from '../images/asli.jpeg'
+import asliimage from '../images/asli.jpeg';
 
 interface ImageMeta {
-  url: string;
-  link: string;
-  title?: string;
-  description?: string;
-  markdownPath?: string;
-  markdown?: string;
+	url: string;
+	link: string;
+	title?: string;
+	description?: string;
+	markdownPath?: string;
+	markdown?: string;
 }
 
 interface ImageData {
-  [filename: string]: ImageMeta;
+	[filename: string]: ImageMeta;
 }
 
 const imageData = imageDataRaw as ImageData;
@@ -30,78 +30,67 @@ const imageData = imageDataRaw as ImageData;
   markdown: imageData[filename].markdown,
 }));*/
 
-
 const images = await Promise.all(
-  Object.keys(imageData).map(async (filename) => {
-    const data = imageData[filename];
-    let markdownHtml = '';
+	Object.keys(imageData).map(async (filename) => {
+		const data = imageData[filename];
+		let markdownHtml = '';
 
-    if (data.markdownPath) {
-      const mdFilePath = path.resolve('./src/content/markdown', data.markdownPath);
-      const mdRaw = await fs.readFile(mdFilePath, 'utf-8');  // await here!
-      markdownHtml = await marked(mdRaw);
-    }
+		if (data.markdownPath) {
+			const mdFilePath = path.resolve('./src/content/markdown', data.markdownPath);
+			const mdRaw = await fs.readFile(mdFilePath, 'utf-8'); // await here!
+			markdownHtml = await marked(mdRaw);
+		}
 
-    return {
-      ...data,
-      markdown: markdownHtml,
-    };
-  })
+		return {
+			...data,
+			markdown: markdownHtml,
+		};
+	}),
 );
 ---
 
 <style>
-  #box {
-    width: 80%;
-    overflow: auto;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	#box {
+		width: 80%;
+		overflow: auto;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
 </style>
 
 <style>
-  #asli {
-    width: 30%;
-    overflow: auto;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	#asli {
+		width: 30%;
+		overflow: auto;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
 </style>
 
 <style>
-  #gridst {
-    width: 100%;
-    overflow: auto;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	#gridst {
+		width: 100%;
+		overflow: auto;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
 </style>
 
 <div id="box" class="grid grid-cols-1 md:grid-cols-2 gap-20 p-4">
+	<!-- Left -->
+	<div class="" id="gridst">
+		<PhotoGrid images={images} default_size={3} />
+	</div>
 
-  <!-- Left -->
-  <div class="" id="gridst">
-    <PhotoGrid images={images} default_size={3} />
-  </div>
-
-  <!-- Right -->
-  <div class="" id="asli">
-    <div class="max-w-xl mx-auto text-center md:text-left mb-8">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4">Hi I'm Aslı</h2>
-      <Image
-          src={asliimage}
-          alt="{image.title}"
-          format="webp"
-          loading="lazy"
-      />
-      <p class="text-gray-600">
-        I'm a 2D/3D artist from Würzburg Germany
-      </p>
-    </div>
-  </div>
-
-
+	<!-- Right -->
+	<div class="" id="asli">
+		<div class="max-w-xl mx-auto text-center md:text-left mb-8">
+			<h2 class="text-3xl md:text-4xl font-bold mb-4">Hi I'm Aslı</h2>
+			<Image src={asliimage} alt="{image.title}" format="webp" loading="lazy" />
+			<p class="text-gray-600">I'm a 2D/3D artist from Würzburg Germany</p>
+		</div>
+	</div>
 </div>

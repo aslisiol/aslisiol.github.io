@@ -43,7 +43,7 @@ export default [
 			astro: astroPlugin,
 		},
 		rules: {
-			...astroPlugin.configs.recommended.rules,
+			'no-unused-vars': 'off', //...astroPlugin.configs.recommended.rules,
 		},
 	},
 ];

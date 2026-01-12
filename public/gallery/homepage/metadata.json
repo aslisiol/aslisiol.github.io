@@ -1,193 +1,186 @@
 {
-  "shoes.jpg": {
-    "url": "/astro-photography-portfolio/gallery/homepage/shoes.jpg",
-    "link": "/astro-photography-portfolio/gallery/homepage/shoes.jpg",
-    "title": "Shoes",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "taubeninderwalgasse.jpg": {
-    "url": "/astro-photography-portfolio/gallery/homepage/taubeninderwalgasse.jpg",
-    "link": "/astro-photography-portfolio/gallery/homepage/taubeninderwalgasse.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im3.jpg": {
-    "url": "/astro-photography-portfolio/gallery/homepage/im4.jpg",
-    "link": "/astro-photography-portfolio/gallery/homepage/im4.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im4.jpg": {
-    "url": "/astro-photography-portfolio/gallery/homepage/im3.jpg",
-    "link": "/astro-photography-portfolio/gallery/homepage/im3.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "shoes22.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/1.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/1.jpg",
-    "title": "Shoes",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im31.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/3.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/3.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im41.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/4.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/4.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im6.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/6.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/6.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im7.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/bird.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/bird.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im8.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/characters_render.png",
-    "link": "/astro-photography-portfolio/gallery/personal_work/characters_render.png",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  }
-  ,
-  "im9.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/dnd01.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/dnd01.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  }
-  ,
-  "im10.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/IMG_1810.PNG",
-    "link": "/astro-photography-portfolio/gallery/personal_work/IMG_1810.PNG",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  }
-  ,
-  "im11.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/IMG_2316.PNG",
-    "link": "/astro-photography-portfolio/gallery/personal_work/IMG_2316.PNG",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  }
-  ,
-  "im12.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/mort.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/mort.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  }
-  ,
-  "im13.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/robots.png",
-    "link": "/astro-photography-portfolio/gallery/personal_work/robots.png",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  }
-  ,
-  "im14.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/sheep.jpg",
-    "link": "/astro-photography-portfolio/gallery/personal_work/sheep.jpg",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im16.jpg": {
-    "url": "/astro-photography-portfolio/gallery/personal_work/unnamed.png",
-    "link": "/astro-photography-portfolio/gallery/personal_work/unnamed.png",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "shoes2.jpg": {
-    "url": "/astro-photography-portfolio/gallery/professional_work/0001.png",
-    "link": "/astro-photography-portfolio/gallery/professional_work/0001.png",
-    "title": "Shoes",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "taubeninderwalgasse2.jpg": {
-    "url": "/astro-photography-portfolio/gallery/professional_work/hats.PNG",
-    "link": "/astro-photography-portfolio/gallery/professional_work/hats.PNG",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im32.jpg": {
-    "url": "/astro-photography-portfolio/gallery/professional_work/jacketnew03.png",
-    "link": "/astro-photography-portfolio/gallery/professional_work/jacketnew03.png",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im42.jpg": {
-    "url": "/astro-photography-portfolio/gallery/professional_work/remder5.png",
-    "link": "/astro-photography-portfolio/gallery/professional_work/remder5.png",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im52.jpg": {
-    "url": "/astro-photography-portfolio/gallery/professional_work/renderclothes4.png",
-    "link": "/astro-photography-portfolio/gallery/professional_work/renderclothes4.png",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  },
-  "im62.jpg": {
-    "url": "/astro-photography-portfolio/gallery/professional_work/renderwobg.png",
-    "link": "/astro-photography-portfolio/gallery/professional_work/renderwobg.png",
-    "title": "Pigeon",
-    "description": "Nice description",
-    "markdownPath": "",
-    "markdown": ""
-  }
-  
+	"shoes.jpg": {
+		"url": "/astro-photography-portfolio/gallery/homepage/shoes.jpg",
+		"link": "/astro-photography-portfolio/gallery/homepage/shoes.jpg",
+		"title": "Shoes",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"taubeninderwalgasse.jpg": {
+		"url": "/astro-photography-portfolio/gallery/homepage/taubeninderwalgasse.jpg",
+		"link": "/astro-photography-portfolio/gallery/homepage/taubeninderwalgasse.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im3.jpg": {
+		"url": "/astro-photography-portfolio/gallery/homepage/im4.jpg",
+		"link": "/astro-photography-portfolio/gallery/homepage/im4.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im4.jpg": {
+		"url": "/astro-photography-portfolio/gallery/homepage/im3.jpg",
+		"link": "/astro-photography-portfolio/gallery/homepage/im3.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"shoes22.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/1.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/1.jpg",
+		"title": "Shoes",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im31.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/3.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/3.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im41.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/4.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/4.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im6.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/6.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/6.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im7.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/bird.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/bird.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im8.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/characters_render.png",
+		"link": "/astro-photography-portfolio/gallery/personal_work/characters_render.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im9.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/dnd01.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/dnd01.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im10.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/IMG_1810.PNG",
+		"link": "/astro-photography-portfolio/gallery/personal_work/IMG_1810.PNG",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im11.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/IMG_2316.PNG",
+		"link": "/astro-photography-portfolio/gallery/personal_work/IMG_2316.PNG",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im12.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/mort.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/mort.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im13.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/robots.png",
+		"link": "/astro-photography-portfolio/gallery/personal_work/robots.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im14.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/sheep.jpg",
+		"link": "/astro-photography-portfolio/gallery/personal_work/sheep.jpg",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im16.jpg": {
+		"url": "/astro-photography-portfolio/gallery/personal_work/unnamed.png",
+		"link": "/astro-photography-portfolio/gallery/personal_work/unnamed.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"shoes2.jpg": {
+		"url": "/astro-photography-portfolio/gallery/professional_work/0001.png",
+		"link": "/astro-photography-portfolio/gallery/professional_work/0001.png",
+		"title": "Shoes",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"taubeninderwalgasse2.jpg": {
+		"url": "/astro-photography-portfolio/gallery/professional_work/hats.PNG",
+		"link": "/astro-photography-portfolio/gallery/professional_work/hats.PNG",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im32.jpg": {
+		"url": "/astro-photography-portfolio/gallery/professional_work/jacketnew03.png",
+		"link": "/astro-photography-portfolio/gallery/professional_work/jacketnew03.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im42.jpg": {
+		"url": "/astro-photography-portfolio/gallery/professional_work/remder5.png",
+		"link": "/astro-photography-portfolio/gallery/professional_work/remder5.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im52.jpg": {
+		"url": "/astro-photography-portfolio/gallery/professional_work/renderclothes4.png",
+		"link": "/astro-photography-portfolio/gallery/professional_work/renderclothes4.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"im62.jpg": {
+		"url": "/astro-photography-portfolio/gallery/professional_work/renderwobg.png",
+		"link": "/astro-photography-portfolio/gallery/professional_work/renderwobg.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	}
 }

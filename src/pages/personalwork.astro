@@ -7,56 +7,56 @@ import { marked } from 'marked';
 import PhotoGrid from '../components/PhotoGrid.astro';
 import imageDataRaw from '../../public/gallery/personal_work/metadata.json';
 import Image from 'astro/components/Image.astro';
-import asliimage from '../images/asli.jpeg'
+import asliimage from '../images/asli.jpeg';
 
 interface ImageMeta {
-  url: string;
-  link: string;
-  title?: string;
-  description?: string;
-  markdownPath?: string;
-  markdown?: string;
+	url: string;
+	link: string;
+	title?: string;
+	description?: string;
+	markdownPath?: string;
+	markdown?: string;
 }
 
 interface ImageData {
-  [filename: string]: ImageMeta;
+	[filename: string]: ImageMeta;
 }
 
 const imageData = imageDataRaw as ImageData;
 
 const images = await Promise.all(
-  Object.keys(imageData).map(async (filename) => {
-    const data = imageData[filename];
-    let markdownHtml = '';
+	Object.keys(imageData).map(async (filename) => {
+		const data = imageData[filename];
+		let markdownHtml = '';
 
-    if (data.markdownPath) {
-      const mdFilePath = path.resolve('./src/content/markdown', data.markdownPath);
-      const mdRaw = await fs.readFile(mdFilePath, 'utf-8');  // await here!
-      markdownHtml = await marked(mdRaw);
-    }
+		if (data.markdownPath) {
+			const mdFilePath = path.resolve('./src/content/markdown', data.markdownPath);
+			const mdRaw = await fs.readFile(mdFilePath, 'utf-8'); // await here!
+			markdownHtml = await marked(mdRaw);
+		}
 
-    return {
-      ...data,
-      markdown: markdownHtml,
-    };
-  })
+		return {
+			...data,
+			markdown: markdownHtml,
+		};
+	}),
 );
 ---
 
 <style>
-    #box {
-        width: 100%;
-        overflow: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	#box {
+		width: 100%;
+		overflow: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 </style>
 
 <MainLayout>
-    <section id="box" class="py-20">
-        <PhotoGrid images={images} default_size={6} />
-    </section>
+	<section id="box" class="py-20">
+		<PhotoGrid images={images} default_size={6} />
+	</section>
 </MainLayout>

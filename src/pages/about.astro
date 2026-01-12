@@ -2,7 +2,7 @@
 import MainLayout from '../layouts/MainLayout.astro';
 import { Content as AboutPage } from '../content/about.md';
 import siteConfig from '../../site.config.mjs';
-import "../styles/cv.css";
+import '../styles/cv.css';
 import SocialIcon from '../components/SocialIcon_big.astro';
 
 const profileImage = siteConfig.profileImage;
@@ -11,14 +11,14 @@ const socialLinks = siteConfig.socialLinks;
 ---
 
 <style>
-  #box {
-    width: 80%;
-    overflow: auto;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+	#box {
+		width: 80%;
+		overflow: auto;
+		justify-content: center;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 </style>
 
 <MainLayout>
@@ -26,13 +26,14 @@ const socialLinks = siteConfig.socialLinks;
 		<div class="container-custom">
 			<div class="max-w-2xl mx-auto text-center mb-16">
 				<h1 class="text-4xl md:text-5xl font-bold mb-4">About Me</h1>
-        <a>I’m an artist and animator based in Würzburg, Germany with a Fine Arts
-Bachelor’s in Animation and three years of professional experience.</a>
-        <div class="flex justify-center gap-6 mt-6">
-			{socialLinks.map((socialLink) => <SocialIcon socialLink={socialLink} />)}
-		</div>
-      </div>
+				<a
+					>I’m an artist and animator based in Würzburg, Germany with a Fine Arts Bachelor’s in
+					Animation and three years of professional experience.</a
+				>
+				<div class="flex justify-center gap-6 mt-6">
+					{socialLinks.map((socialLink) => <SocialIcon socialLink={socialLink} />)}
+				</div>
+			</div>
 		</div>
 	</section>
-  
 </MainLayout>

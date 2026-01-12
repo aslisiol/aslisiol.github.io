@@ -6,9 +6,9 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://aslisiol.github.io',
-    integrations: [react(), icon()],
-    vite: {
-        plugins: [tailwindcss()],
-    },
+	site: 'https://aslisiol.github.io',
+	integrations: [react(), icon()],
+	vite: {
+		plugins: [tailwindcss()],
+	},
 });
