@@ -1,0 +1,73 @@
+---
+import "glightbox/dist/css/glightbox.css";
+import { Masonry } from "astro-masonry";
+import LightboxLoader from './LightboxLoader.astro';
+import { nanoid } from 'nanoid'; // or generate your own unique IDs
+import "../styles/mdxglightbox.css";
+import ThreeScene from '../components/ThreeScene.jsx';
+
+interface Image {
+  url: string;
+  link: string;
+  title?: string;
+  description?: string;
+  markdownPath?: string;
+  markdown?: string;
+}
+
+const { images } = Astro.props as { images: Image[] };
+const { default_size } = Astro.props;
+---
+
+
+<Masonry
+  breakpointCols={{
+    default: default_size,
+    1100: 3,
+    700: 2,
+    500: 1,
+  }}
+  sortByHeight={true}
+  class="flex gap-2 px-4"
+  columnClass="masonry-col"
+>
+  {
+    images.map((image) => {
+      if (image.markdown) {
+        const mdId = `md-content-${nanoid()}`;
+
+        return (
+          <><div class="mb-2">
+            {/* Link triggers GLightbox inline modal */}
+            <a href={`#${mdId}`} class="glightbox" data-glightbox="type:inline">
+              {/* You can still show a thumbnail or title here */}
+              <img src={image.url} alt={image.title ?? "Missing Image"} />
+            </a>
+
+            {/* Hidden container with markdown HTML */}
+            <div style="display:none;">
+              <div id={mdId} class="glightbox-inline-content">
+                <div set:html={image.markdown} />
+              </div>
+            </div>
+            </div>
+          </>
+        );
+      } else {
+        // Default: image lightbox
+        return (
+          <div class="mb-2">
+          <a href={image.url} class="glightbox">
+            <img src={image.url} alt={image.title ?? "Missing Image"} />
+          </a>
+          </div>
+        );
+      }
+    })
+  }
+</Masonry>
+
+<!-- This runs initLightbox on client -->
+<LightboxLoader client:load />
+
+
