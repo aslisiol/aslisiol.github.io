@@ -1,7 +1,7 @@
 {
 	"shoes.jpg": {
-		"url": "/astro-photography-portfolio/gallery/homepage/shoes.jpg",
-		"link": "/astro-photography-portfolio/gallery/homepage/shoes.jpg",
+		"url": "/gallery/homepage/shoes.jpg",
+		"link": "/gallery/homepage/shoes.jpg",
 		"title": "Shoes",
 		"description": "Nice description",
 		"markdownPath": "",
