@@ -5,7 +5,7 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'AslıSiol',
+	title: 'Aslı Siol',
 	favicon: 'favicon.ico',
 	owner: 'Aslı Siol',
 	profileImage: 'profile.webp',

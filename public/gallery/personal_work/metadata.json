@@ -31,14 +31,6 @@
 		"markdownPath": "",
 		"markdown": ""
 	},
-	"im5.jpg": {
-		"url": "gallery/personal_work/5.jpg",
-		"link": "gallery/personal_work/5.jpg",
-		"title": "Pigeon",
-		"description": "Nice description",
-		"markdownPath": "",
-		"markdown": ""
-	},
 	"im6.jpg": {
 		"url": "gallery/personal_work/6.jpg",
 		"link": "gallery/personal_work/6.jpg",
@@ -122,6 +114,30 @@
 	"im16.jpg": {
 		"url": "gallery/personal_work/unnamed.png",
 		"link": "gallery/personal_work/unnamed.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"oscar.jpg": {
+		"url": "gallery/personal_work/Oscar.jpg",
+		"link": "gallery/personal_work/Oscar.jpg",
+		"title": "Oscar",
+		"description": "This is Oscar",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"froggo.jpg": {
+		"url": "gallery/personal_work/Frogo.png",
+		"link": "gallery/personal_work/Frogo.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"update.jpg": {
+		"url": "gallery/personal_work/Pici.jpg",
+		"link": "gallery/personal_work/Pici.jpg",
 		"title": "Pigeon",
 		"description": "Nice description",
 		"markdownPath": "",

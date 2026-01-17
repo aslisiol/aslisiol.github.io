@@ -5,7 +5,7 @@ import { marked } from 'marked';
 import PhotoGrid from './PhotoGrid.astro';
 import imageDataRaw from '../../public/gallery/homepage/metadata.json';
 import Image from 'astro/components/Image.astro';
-import asliimage from '../images/asli.jpeg';
+import asliimage from '../images/cvpp.png';
 
 interface ImageMeta {
 	url: string;
@@ -90,9 +90,7 @@ const images = await Promise.all(
 	<!-- Right -->
 	<div class="" id="asli">
 		<div class="max-w-xl mx-auto text-center md:text-left mb-8">
-			<h2 class="text-3xl md:text-4xl font-bold mb-4">Hi I'm Aslı</h2>
 			<Image src={asliimage} alt="{image.title}" format="webp" loading="lazy" />
-			<p class="text-gray-600">I'm a 2D/3D artist from Würzburg Germany</p>
 		</div>
 	</div>
 </div>

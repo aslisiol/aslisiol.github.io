@@ -23,14 +23,6 @@
 		"markdownPath": "",
 		"markdown": ""
 	},
-	"im4.jpg": {
-		"url": "gallery/homepage/im3.jpg",
-		"link": "gallery/homepage/im3.jpg",
-		"title": "Pigeon",
-		"description": "Nice description",
-		"markdownPath": "",
-		"markdown": ""
-	},
 	"shoes22.jpg": {
 		"url": "gallery/personal_work/1.jpg",
 		"link": "gallery/personal_work/1.jpg",
@@ -178,6 +170,30 @@
 	"im62.jpg": {
 		"url": "gallery/professional_work/renderwobg.png",
 		"link": "gallery/professional_work/renderwobg.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"oscar.jpg": {
+		"url": "gallery/personal_work/Oscar.jpg",
+		"link": "gallery/personal_work/Oscar.jpg",
+		"title": "Oscar",
+		"description": "This is Oscar",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"froggo.jpg": {
+		"url": "gallery/personal_work/Frogo.png",
+		"link": "gallery/personal_work/Frogo.png",
+		"title": "Pigeon",
+		"description": "Nice description",
+		"markdownPath": "",
+		"markdown": ""
+	},
+	"update.jpg": {
+		"url": "gallery/personal_work/Pici.jpg",
+		"link": "gallery/personal_work/Pici.jpg",
 		"title": "Pigeon",
 		"description": "Nice description",
 		"markdownPath": "",
